@@ -1308,6 +1308,10 @@ footer .footer-sns > a {
   }
 }
 
+.sec-proc .whitebar {
+  display: none;
+  max-width: none;
+}
 .sec-proc .inner {
   display: flex;
   flex-direction: column;
@@ -1424,6 +1428,14 @@ footer .footer-sns > a {
   }
 }
 @media (min-width: 1024px) {
+  .sec-proc .whitebar {
+    display: block;
+    position: absolute;
+    max-width: none;
+    height: 870px;
+    background-color: #fff;
+    width: 100%;
+  }
   .sec-proc .inner {
     height: 870px;
     align-items: flex-start;

@@ -353,6 +353,10 @@
 }
 
 .sec-proc {
+  .whitebar{
+    display: none;
+    max-width: none;
+  }
   .inner {
     display: flex;
     flex-direction: column;
@@ -361,6 +365,7 @@
     height: 900px;
     margin-top: 250px;
     background-color: $white;
+
   }
 
   .proc-video {
@@ -477,10 +482,19 @@
   }
 
   @include tabletMore {
+    .whitebar{
+      display: block;
+      position: absolute;
+      max-width: none;
+      height: 870px;
+      background-color: $white;
+      width: 100%;
+    }
     .inner {
       height: 870px;
       align-items: flex-start;
       margin-top: 400px;
+
     }
     .proc-video {
       height: 730px;
