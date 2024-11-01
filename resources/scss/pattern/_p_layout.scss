@@ -545,18 +545,19 @@ footer {
     overflow: hidden;
     position: absolute;
     height: 140px;
-    transform: translate(-30px, -79.08px);
+    transform: translate(0px, -79.08px);
   }
   @include tablet {
     .footer-video {
       height: 230px;
-      transform: translate(-25px, -130px);
+      transform: translate(0px, -130px);
     }
   }
   @include tabletMore {
     .footer-video {
       height: 230px;
-      transform: translate(-25px, -130px);
+      transform: translate(-50px, -130px);
+      overflow: hidden;
     }
   }
 

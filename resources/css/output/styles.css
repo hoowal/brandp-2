@@ -878,18 +878,19 @@ footer .footer-video {
   overflow: hidden;
   position: absolute;
   height: 140px;
-  transform: translate(-30px, -79.08px);
+  transform: translate(0px, -79.08px);
 }
 @media (min-width: 600px) and (max-width: 1023px) {
   footer .footer-video {
     height: 230px;
-    transform: translate(-25px, -130px);
+    transform: translate(0px, -130px);
   }
 }
 @media (min-width: 1024px) {
   footer .footer-video {
     height: 230px;
-    transform: translate(-25px, -130px);
+    transform: translate(-50px, -130px);
+    overflow: hidden;
   }
 }
 footer .footer-text {
@@ -1234,7 +1235,7 @@ footer .footer-sns > a {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
   }
   .sec-ads .sec-ads__videos h2 {
     margin-top: 10px;
@@ -1256,13 +1257,13 @@ footer .footer-sns > a {
   text-align: center;
   gap: 10px;
 }
-.sec-port .port-video {
-  border: solid 1px #555555;
-}
-@media (min-width: 1025px) and (max-width: 1420px) {
-  .sec-port {
+@media (min-width: 1024px) and (max-width: 1420px) {
+  .sec-port .inner {
     flex-direction: column;
   }
+}
+.sec-port .port-video {
+  border: solid 1px #555555;
 }
 .sec-port .sec-g__text__tit1 {
   margin-top: 30px;
@@ -1293,6 +1294,7 @@ footer .footer-sns > a {
     display: flex;
     text-align: left;
     justify-content: space-between;
+    gap: 80px;
   }
   .sec-port .port-video {
     max-height: 480px;
@@ -1307,13 +1309,10 @@ footer .footer-sns > a {
 }
 
 .sec-proc .inner {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
   padding: 0;
-  width: 100%;
   height: 900px;
   margin-top: 250px;
   background-color: #fff;
@@ -1389,6 +1388,7 @@ footer .footer-sns > a {
   .sec-proc .inner {
     margin-top: 450px;
     height: 1500px;
+    margin-top: 250px;
   }
   .sec-proc .proc-video {
     height: 730px;
@@ -1427,6 +1427,7 @@ footer .footer-sns > a {
   .sec-proc .inner {
     height: 870px;
     align-items: flex-start;
+    margin-top: 400px;
   }
   .sec-proc .proc-video {
     height: 730px;
