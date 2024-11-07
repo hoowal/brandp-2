@@ -534,7 +534,7 @@ legend {
 }
 @media (max-width: 1320px) {
   #gnb .gnb__depth1 > li > a {
-    padding: 0 40px;
+    padding: 0 30px;
   }
 }
 #gnb .gnb__depth1 > li > a span {
